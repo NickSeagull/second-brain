@@ -1,1 +1,2 @@
-# second-brain
+# Nick's Second Brain 🧠
+
