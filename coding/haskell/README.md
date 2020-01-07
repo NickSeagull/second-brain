@@ -88,3 +88,9 @@ ghc-options:
 ```
 
 Before a release I compile using `-Werror` so I can catch those pesky warnings.
+
+## Testing
+
+I use [`hspec`](http://hspec.github.io/) for writing my test suites.
+
+I also use [`hedgehog`](https://hedgehog.qa/) for writing my property based tests, that I plug into my `hspec` test suites using [`hw-hspec-hedgehog`](https://github.com/haskell-works/hw-hspec-hedgehog).
