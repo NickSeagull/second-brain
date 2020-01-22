@@ -50,7 +50,7 @@ As my standard library, I use [`rio`](https://github.com/commercialhaskell/rio#r
 
 ## Language Extensions
 
-I always avoid complex Haskell code, but I always enable these extensions just in case. As they don't modify the behaviour of my code:
+I always avoid complex Haskell code, but I always enable these extensions just in case. As they don't modify the behavior of my code:
 
 ```yaml
 default-extensions:
