@@ -9,11 +9,12 @@ It is not **the** way to write Haskell, it is the way **I** write it, and it wor
 ## Setting up Haskell on Windows
 
 - Install [Chocolatey](https://chocolatey.org/install)
-- Install `cabal v3` with `choco install cabal` from an admin PowerShell
-- Install `ghc 8.6.5` with `choco install ghc --version 8.6.5` from an admin PowerShell
-- Make sure that you can run the `cabal` and `ghc` commands. If not, you'll need to add their paths to your PATH environment variable. Generally, they will be:
-  - `C:\ProgramData\chocolatey\lib\ghc\tools\ghc-8.6.5\bin` for `ghc`
-  - `%appdata%\cabal\bin` for `cabal`
+- Run `choco install haskell-dev` from an admin PowerShell, if that doesn't work, try:
+  - Install `cabal v3` with `choco install cabal` from an admin PowerShell
+  - Install `ghc 8.6.5` with `choco install ghc --version 8.6.5` from an admin PowerShell
+  - Make sure that you can run the `cabal` and `ghc` commands. If not, you'll need to add their paths to your PATH environment variable. Generally, they will be:
+    - `C:\ProgramData\chocolatey\lib\ghc\tools\ghc-8.6.5\bin` for `ghc`
+    - `%appdata%\cabal\bin` for `cabal`
 - After installing these tools, run the following commands to install additional tooling for linting and styling:
   - `cabal install hspec-discover`
   - `cabal install hlint`
