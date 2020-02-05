@@ -123,3 +123,7 @@ Before a release I compile using `-Werror` so I can catch those pesky warnings.
 I use [`hspec`](http://hspec.github.io/) for writing my test suites.
 
 I also use [`hedgehog`](https://hedgehog.qa/) for writing my property based tests, that I plug into my `hspec` test suites using [`hw-hspec-hedgehog`](https://github.com/haskell-works/hw-hspec-hedgehog).
+
+## Useful links
+
+* [How to read Haskell documentation](https://williamyaoh.com/posts/2019-06-06-how-i-read-haskell-documentation.html)
