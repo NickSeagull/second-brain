@@ -14,3 +14,7 @@ I love dark themes. Sadly GitHub doesn't have one, BUT, you can make it yourself
 * [Refined GitHub](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf) - Several improvements on GitHub
 * [GitHub Notifications dropdown](https://openuserjs.org/scripts/joeytwiddle/Github_Notifications_Dropdown) - ViolentMonkey script that adds a notifications dropdown
 * [Install GitHub Dark](https://raw.githubusercontent.com/StylishThemes/GitHub-Dark-Script/master/github-dark-script.user.js) - ViolentMonkey script that installs the CSS theme, and keeps it updated
+
+## Stack Overflow Dark
+
+Install [this theme](https://github.com/StylishThemes/Stackoverflow-Dark)
